@@ -1,7 +1,6 @@
 <?php include('elements/header.php'); ?>
 <div class="container_fond">
 	<div class="container">
-		<!--<img src="<?php echo $this->getThemePath();?>/assets/images/slider.png" alt="slider" />-->
 		<?php
 		  $a = new Area ('diapo');
 		  $a->display($c);
@@ -17,7 +16,6 @@
               $a = new Area ('title');
               $a->display($c);
             ?>
-			<!--<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>-->
 		</div>
 	</div>
 </div>
@@ -67,11 +65,6 @@
 				$a = new Area ('social');
 				$a->display($c);
             ?>
-			<!--<p><h3>Social Connection</h3></p>
-			<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			<a href="#"><img src="<?php echo $this->getThemePath();?>/assets/images/rss.png" alt="rss" /></a><a href="#"><img src="<?php echo $this->getThemePath();?>/assets/images/facebook.png" alt="facebook" /></a><a href="#"><img src="<?php echo $this->getThemePath();?>/assets/images/linkedin.png" alt="linkedin" /></a><a href="#"><img src="<?php echo $this->getThemePath();?>/assets/images/youtube.png" alt="youtube" /></a><a href="#"><img src="<?php echo $this->getThemePath();?>/assets/images/twitter.png" alt="twitter" /></a>
-			<p><h3>Newsletter</h3></p>
-			<p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
 			<form class="pure-form pure-form-aligned">
 		    	<fieldset>
 					<div class="pure-control-group">
@@ -106,30 +99,6 @@
 				$a = new Area ('news');
 				$a->display($c);
             ?>
-			<!--<p><h3>News Updates</h3></p>
-			<div class="contenu_news">
-				<ul>
-					<li>
-						<a href="#">
-							<img class="cadre" src="<?php echo $this->getThemePath();?>/assets/images/news_1.png" alt="news_1" />
-						</a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-					</li>
-					<li>
-						<a href="#">
-							<img class="cadre" src="<?php echo $this->getThemePath();?>/assets/images/news_2.png" alt="news_2" />
-						</a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p
-					</li>
-					<li>
-						<a href="#">
-							<img class="cadre" src="<?php echo $this->getThemePath();?>/assets/images/news_3.png" alt="news_3" />
-						</a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p
-					</li>
-				</ul>
-			</div>--->
-
 			<a class="pure-button pure-button-primary" href="#">Visit our Blog  &#x2192;</a>
 		</div>
 	</div>

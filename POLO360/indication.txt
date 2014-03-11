@@ -1,8 +1,0 @@
-indication
-
-* TP fini (intégration, pages et contenu, template)
-* Site hébergé
-* Source sur github.com
-
-Par mail jp.lannoy@nulsine.fr
-pour le 11/03 minuit aucun retard !!!

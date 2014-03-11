@@ -19,13 +19,6 @@
 	              $a = new Area ('menu');
 	              $a->display($c);
 	            ?>
-			    <!--<ul>
-			        <li class="pure-menu-selected"><a href="#">Home</a></li>
-			        <li><a href="#">Products</a></li>
-			        <li><a href="#">Services</a></li>
-			        <li><a href="#">Blog</a></li>
-			        <li><a href="#">Contact</a></li>
-			    </ul>-->
 			</div>
 		</div>
 	</div>
